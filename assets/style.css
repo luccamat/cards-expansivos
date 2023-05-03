@@ -76,23 +76,24 @@ body{
   box-shadow:inset -0px -0px 35px 0 #161616ce;
 }
 
-  .img-box h3{
-    color: #fff;
-    font-size: 25px;
-    text-shadow: 2px 2px #1e1c2a;
-    position: relative;
-    top: 410px;
-    bottom: 0;
-    left: 30px;
-    opacity: 0;
-    transition: bottom 0.5s, opacity 0.5s;
-  }
-  .img-box:hover{
-    width: 800px;
-    cursor: pointer;
-  }
-  .img-box:hover h3{
-    opacity: 1;
-    bottom: 25px;
-    
-  }
+.img-box h3{
+  color: #fff;
+  font-size: 25px;
+  text-shadow: 2px 2px #1e1c2a;
+  position: relative;
+  top: 410px;
+  bottom: 0;
+  left: 30px;
+  opacity: 0;
+  transition: bottom 0.5s, opacity 0.5s;
+}
+
+.img-box:hover{
+  width: 800px;
+  cursor: pointer;
+}
+
+.img-box:hover h3{
+  opacity: 1;
+  bottom: 25px;    
+}
